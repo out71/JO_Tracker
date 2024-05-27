@@ -1,13 +1,13 @@
 package com.jotracker.jo_tracker.Views;
 
 import com.jotracker.jo_tracker.Controllers.MedaillesCellController;
-import com.jotracker.jo_tracker.Models.Medailles;
+import com.jotracker.jo_tracker.Models.Medaille;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.ListCell;
 
-public class MedaillesCellFactory extends ListCell<Medailles> {
+public class MedaillesCellFactory extends ListCell<Medaille> {
     @Override
-    protected void updateItem(Medailles medailles, boolean empty) {
+    protected void updateItem(Medaille medailles, boolean empty) {
         super.updateItem(medailles, empty);
         if(empty){
             setText(null);

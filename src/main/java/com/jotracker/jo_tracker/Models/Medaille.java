@@ -5,7 +5,7 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
-public class Medailles {
+public class Medaille {
     private final StringProperty flagCountry;
     private final StringProperty athleteName;
     private final IntegerProperty goldenMedals_amount;
@@ -13,7 +13,7 @@ public class Medailles {
     private final IntegerProperty bronzeMedals_amount;
     private final IntegerProperty medals_amount;
 
-    public Medailles(String flagCountry, String athleteName, Integer goldenMedals_amount, Integer silverMedals_amount, Integer bronzeMedals_amount, Integer medals_amount) {
+    public Medaille(String flagCountry, String athleteName, Integer goldenMedals_amount, Integer silverMedals_amount, Integer bronzeMedals_amount, Integer medals_amount) {
         this.flagCountry = new SimpleStringProperty(this, "flagCountry", flagCountry);
         this.athleteName = new SimpleStringProperty(this, "athleteName", athleteName);
         this.goldenMedals_amount = new SimpleIntegerProperty(this, "goldenMedals_amount", goldenMedals_amount);

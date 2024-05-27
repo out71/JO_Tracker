@@ -5,6 +5,9 @@ module com.jotracker.jo_tracker {
     requires org.xerial.sqlitejdbc;
     requires de.jensd.fx.glyphs.fontawesome;
     requires com.calendarfx.view;
+    requires json.simple;
+    requires java.desktop;
+    requires javafx.swing;
 
     opens com.jotracker.jo_tracker to javafx.fxml;
     exports com.jotracker.jo_tracker;
